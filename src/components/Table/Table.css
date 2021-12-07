@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 0.5rem;
+  box-shadow: 3px 2px 8px -6px #5d4037;
+  overflow: hidden;
+}
+
+th {
+  background-color: #5d4037;
+  color: white;
+  font-weight: 700;
+  text-align: right;
+  padding: 1.6rem 1rem;
+}
+
+td {
+  padding: 1.6rem 1rem;
+  text-align: right;
+}
+
+.table__content {
+  border-bottom: 1px solid #d7ccc8;
+  color: #4e342e;
+}
+.table__content:last-child {
+  border-bottom: transparent;
+}
+.table__content:nth-child(odd) {
+  background-color: #efebe9;
+}

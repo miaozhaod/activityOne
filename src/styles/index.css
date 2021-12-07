@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+input {
+  height: 2.4rem;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0;
+  border: transparent;
+  box-sizing: border-box;
+  background-color: #efebe9;
+  color: #795548;
+  box-shadow: inset 1px 1px 4px 0px #d7ccc8;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #795548;
+}
